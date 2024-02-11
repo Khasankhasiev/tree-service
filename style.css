@@ -1,0 +1,15 @@
+.tree ul {
+  padding-left: 20px;
+}
+.tree ul li {
+  list-style-type: none;
+  position: relative;
+}
+.tree ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  border-left: 1px solid #000;
+  height: 100%;
+}
